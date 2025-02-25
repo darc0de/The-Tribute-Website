@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    /* height: 100vh; */
+}
+
+.main{
+    width: 1150px;
+    /* height: 1250px; */
+    margin: 0 12rem;
+}
+
+.main-content {
+    background-color: #e5e5fd;
+    border: 1rem solid #1d1e4c;
+    padding: 7.0625rem 6.0625rem 1.25rem 6.0625rem;
+    display: flex;
+    flex-direction: column;
+    animation: fade_out 3s 2s ease-out;
+}
+
+.character{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6.625rem;
+}
+
+.main-content img{
+    width: 19.625rem;
+    height: 24.5rem;
+    border-radius: 10.625rem;
+    box-shadow: 0.5rem 0.5rem 0.7rem black;
+}
+
+.character-name-duration{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: -3.7rem;
+}
+
+.character-name-duration > h2{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.character-name-duration > p{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    text-align: end;
+}
+
+.character-about{
+    margin-bottom: 2.5rem;
+}
+
+.character-about > h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: 0;
+    margin-bottom: 2.8rem;
+}
+
+p > span{
+    font-weight: 700;
+}
+
+.character-about > p{
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+}
+
+.character-biographies{
+    margin-bottom: 3rem;
+}
+
+.character-biographies > h4{
+    padding: 0;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+.list-of-book{
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.footer > p{
+    text-align: end;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+p > a{
+    text-decoration: none;
+    /* color: violet; */
+}
+
+@keyframes fade_out {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
